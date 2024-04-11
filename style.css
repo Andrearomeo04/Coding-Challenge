@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+/* Impostazioni sfondo */
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* impostazioni blocco nero trasparente e font */
+.container {
+  width: 1200px;
+  margin-top: 2%;
+  margin-bottom: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px;
+  height: 850px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* impostazione logo e colore titolo */
+img{
+height: 120px;
+display: block;
+margin: auto;
+}
+h1{
+  text-align: center;
+  color: #00cc00;
+}
+
+/* allineamento centrale e sfondo dei 3 pulsanti */
+input[type="submit"]{
+  display: inline-block;
+  margin-top: 15px;
+}
+.booking{
+  text-align: center;
+  background-color: #00cc00;
+  height: 50px;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+  }
+
+/* colore e grandezza informazioni sul Monopattino */
+strong{
+  color: white;
+  font-size: 25px
+}
+p{
+  color: white;
+  font-size: 15px;
+}
+
+/* stati di carica */
+.media-carica{
+  background-color: orange;
+  width: 380px;
+}
+.massima-carica{
+  background-color: #00cc00;
+  width: 600px;
+}
+.bassa-carica{
+  background-color: red;
+  width: 200px;
+}
+div:empty{
+  height: 30px;
+  border-radius: 7px;
+}
+
+/* grandezza finale informazioni monopattino */
+section{
+  font-size: 10px;
+}
